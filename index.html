@@ -1,1 +1,103 @@
-<h1>Hi I'm Khedaar</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khedaar Kashyap</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f5f2eb;
+      --text: #1a1a1a;
+      --orange: #c0392b;
+      --muted: #888;
+      --max-width: 680px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 17px;
+      line-height: 1.75;
+      padding: 80px 24px 120px;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .date {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      color: var(--orange);
+      letter-spacing: 0.03em;
+      margin-bottom: 52px;
+    }
+
+    .bio {
+      margin-bottom: 48px;
+    }
+
+    .bio p {
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+
+    .bio p.coming-soon {
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: var(--orange);
+    }
+
+    .footer-links {
+      margin-top: 64px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      gap: 24px;
+    }
+
+    .footer-links a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--orange);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="date">8th March, 2026</div>
+
+    <div class="bio">
+      <p>Hi, my name is Khedaar Kashyap.</p>
+      <p>I'm a CS student at Stanford.</p>
+      <p class="coming-soon">(coming soon — more to share shortly.)</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="mailto:khedaar06@gmail.com">email</a>
+      <a href="https://github.com/KhedaarK" target="_blank">github</a>
+      <a href="https://linkedin.com/khedaar-kashyap" target="_blank">linkedin</a>
+    </div>
+
+  </div>
+</body>
+</html>
